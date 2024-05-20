@@ -118,7 +118,7 @@ span.first_question {
     height: 8vh;
     padding-bottom: 40px;
     padding-left: 10px;
-    display: flex;
+    display: flex;  
     border-radius: 15px;
     font-size: 13px;
     color: #444;
@@ -146,4 +146,35 @@ div.post_bundle>img.green_user {
 section.boxs>input:focus,
 input#nickname:focus {
     outline: none;
+}
+
+.post_bundle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post_bundle img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.post_content {
+    flex-grow: 1;
+}
+
+.post_actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post_actions .date {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.hidden {
+    display: none;
 }
