@@ -75,6 +75,7 @@ div.post_bundle {
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    padding: 15px;
 }
 
 section.boxs>.question {
@@ -117,13 +118,12 @@ span.first_question {
     width: 34.5vw;
     height: 8vh;
     padding-bottom: 40px;
-    padding-left: 10px;
     display: flex;  
     border-radius: 15px;
     font-size: 13px;
     color: #444;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 div.post_bundle>img.red_user {
