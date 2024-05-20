@@ -46,7 +46,8 @@ div.bundle>#Enter {
     padding-left: 8px;
 }
 
-div.bundle>#Participation {
+
+div.bundle>a>.Participation {
     width: 4.5em;
     height: 3.8em;
     border-radius: 10px;
